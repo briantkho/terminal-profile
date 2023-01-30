@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
+import { Header } from './components/Header';
 import { commandType } from './utils/commands';
 import { outputs } from './utils/language';
 
-export const Interaction = () => {
-  const defaultOutput = outputs.ansiText;
-
+export const Terminal = () => {
   const [input, setInput] = useState('');
-  const [output, setOutput] = useState(defaultOutput);
+  const [output, setOutput] = useState(outputs.home);
 
   const onChangeHandler = (e: React.ChangeEvent<HTMLInputElement>) => {
     setInput(e.target.value);
@@ -20,7 +19,7 @@ export const Interaction = () => {
 
       switch (input) {
         case commandType.home:
-          commandOutput += defaultOutput;
+          commandOutput += outputs.home;
           break;
         case commandType.help:
           commandOutput += outputs.help;
@@ -46,22 +45,32 @@ export const Interaction = () => {
       }
       setOutput(commandOutput);
       setInput('');
+
+      const term = document.querySelector('scrolling');
+      if (term) {
+        window.scrollTo(0, term.scrollHeight);
+      }
     }
   };
 
   return (
-    <div>
-      <div
-        className="whitespace-pre-line"
-        dangerouslySetInnerHTML={{ __html: output }}
-      ></div>
-      <input
-        type="text"
-        value={input}
-        onChange={onChangeHandler}
-        onKeyDown={keyHandler}
-        className=""
-      />
+    <div className="flex flex-col rounded-2xl w-2/3 h-3/4">
+      <Header />
+      <div className="bg-bgBlack scrolling">
+        <div className="m-2">
+          <div
+            className="output"
+            dangerouslySetInnerHTML={{ __html: output }}
+          ></div>
+          <input
+            type="text"
+            value={input}
+            onChange={onChangeHandler}
+            onKeyDown={keyHandler}
+            className=""
+          />
+        </div>
+      </div>
     </div>
   );
 };

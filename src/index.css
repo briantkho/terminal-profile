@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.output {
+  color: white;
+  white-space: pre-line;
+}
+
+.scrolling {
+  overflow-y: scroll;
+}
+
+.scrolling::-webkit-scrollbar {
+  display: none;
+}

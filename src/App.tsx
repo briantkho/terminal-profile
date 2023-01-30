@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import { Interaction } from './Interaction';
+import { Terminal } from './Terminal';
 
 function App() {
   return (
-    <>
-      <Interaction />
-    </>
+    <div className="w-screen h-screen bg-gradient-to-br from-lightBlue to-darkBlue flex items-center justify-center font-mono">
+      <Terminal />
+    </div>
   );
 }
 
