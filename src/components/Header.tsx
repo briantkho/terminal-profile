@@ -1,18 +1,29 @@
 import React from 'react';
+import { IoMdClose } from 'react-icons/io';
+import { BiExpandAlt, BiMinus } from 'react-icons/bi';
 
 export const Header = () => {
   return (
     <div className="bg-gray py-2 pl-3 w-full rounded-t-2xl flex align-middle">
       <div className="flex gap-2 items-center mr-auto">
-        <svg height={15} width={15}>
-          <circle cx="7.5" cy="7.5" r="7.5" className="fill-red" />
-        </svg>
-        <svg height={15} width={15}>
-          <circle cx="7.5" cy="7.5" r="7.5" className="fill-yellow" />
-        </svg>
-        <svg height={15} width={15}>
-          <circle cx="7.5" cy="7.5" r="7.5" className="fill-green" />
-        </svg>
+        <div
+          className="h-4 w-4 rounded-full bg-red flex items-center justify-center"
+          id="parentButtons"
+        >
+          <IoMdClose className="opacity-50 text-xs childButton h-4 w-4 rounded-full bg-red" />
+        </div>
+        <div
+          className="h-4 w-4 rounded-full bg-yellow flex items-center justify-center"
+          id="parentButtons"
+        >
+          <BiMinus className="opacity-50 text-sm childButton" />
+        </div>
+        <div
+          className="h-4 w-4 rounded-full bg-green flex items-center justify-center"
+          id="parentButtons"
+        >
+          <BiExpandAlt className="opacity-50 text-xs childButton" />
+        </div>
       </div>
     </div>
   );

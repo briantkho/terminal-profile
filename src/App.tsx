@@ -4,7 +4,7 @@ import { Terminal } from './Terminal';
 
 function App() {
   return (
-    <div className="w-screen h-screen bg-gradient-to-br from-lightBlue to-darkBlue flex items-center justify-center font-mono">
+    <div className="w-screen h-screen bg-gradient-to-br from-lightBlue to-darkBlue flex items-center justify-center font-mono caret-white">
       <Terminal />
     </div>
   );

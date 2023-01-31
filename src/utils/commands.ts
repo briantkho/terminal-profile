@@ -1,7 +1,6 @@
 export const commandType = {
-  about: 'about',
   contact: 'contact',
-  experience: 'experience',
+  work: 'work',
   help: 'help',
   home: 'home',
   projects: 'projects',

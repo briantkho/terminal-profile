@@ -2,8 +2,17 @@
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        idleMove: {
+          '0%': { transform: 'translateY(0)' },
+          '100%': { transform: 'translateY(.5rem)' },
+        },
+      },
+      animation: { idle: 'idleMove 3s ease-in-out infinite alternate' },
+    },
     colors: {
+      transparent: 'transparent',
       red: '#FF3B30',
       yellow: '#FFCC00',
       green: '#28CD41',
