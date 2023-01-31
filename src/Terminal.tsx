@@ -28,7 +28,7 @@ export const Terminal = () => {
 
       commandOutput = `${output} guest@brianho.tech: $ ~ ${input}\n`;
 
-      switch (input) {
+      switch (input.toLowerCase()) {
         case commandType.gui:
           commandOutput += `&nbsp;&nbsp;&nbsp;${outputs.gui}`;
           window.open('https://brianho.tech');
