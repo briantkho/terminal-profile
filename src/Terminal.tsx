@@ -26,9 +26,13 @@ export const Terminal = () => {
     if (e.key === 'Enter') {
       let commandOutput = ``;
 
-      commandOutput = `${output} \nguest@brianho.tech: $ ~ ${input}\n`;
+      commandOutput = `${output} guest@brianho.tech: $ ~ ${input}\n`;
 
       switch (input) {
+        case commandType.gui:
+          commandOutput += `&nbsp;&nbsp;&nbsp;${outputs.gui}`;
+          window.open('https://brianho.tech');
+          break;
         case commandType.home:
           commandOutput += outputs.home;
           break;
@@ -51,7 +55,7 @@ export const Terminal = () => {
           commandOutput += `&nbsp;&nbsp;&nbsp;${outputs.unknown}${input}`;
           break;
       }
-      setOutput(commandOutput);
+      setOutput(`${commandOutput}\n`);
       setInput('');
     }
   };

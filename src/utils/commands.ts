@@ -1,10 +1,11 @@
 export const commandType = {
-  contact: 'contact',
-  work: 'work',
-  help: 'help',
+  gui: 'gui',
   home: 'home',
+  work: 'work',
   projects: 'projects',
   skills: 'skills',
+  contact: 'contact',
+  help: 'help',
 } as const;
 
 export const listCommands = () => {
