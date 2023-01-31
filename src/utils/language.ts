@@ -64,7 +64,8 @@ const work = `${workAnsi}
 
 Front End Developer: Tetron Health (formerly LeftInDust)
 -- A medical record software company consisting of 10 individuals utilizing Agile Development
--- Developed, maintained, and updated software using Svelte, TypeScript and SQL to push the program to clinical trials for Vancouver General Hospital and the Canadian Rheumatology Association
+-- Developed, maintained, and updated software using Svelte, TypeScript and SQL to push the program to
+&nbsp;&nbsp;&nbsp;clinical trials for Vancouver General Hospital and the Canadian Rheumatology Association
 -- Successfully improved blocking time by 10% by refactoring and reducing main-thread code execution
 -- Converted 20,000 lines of legacy code from Vue to Svelte, resulting in a decrease in bundle size by 35%
 -- Utilized systematic design principles to improve code quality, reducing load times by 2 seconds
@@ -73,7 +74,8 @@ Front End Developer: Tetron Health (formerly LeftInDust)
 
 Front End Developer: Aniket Solutions
 -- Software solutions company based in Singapore that solves complex business problems
--- Collaborated with CEO to design and develop a client portal that allows companies to manage their employees and business subscriptions, improving business turnover by 10%
+-- Collaborated with CEO to design and develop a client portal that allows companies to manage their employees
+&nbsp;&nbsp;&nbsp;and business subscriptions, improving business turnover by 10%
 -- Used Rest API to project real-time updates, resulting in a 15% increase in client satisfaction
 -- Successfully developed a new codebase with React and TypeScript to improve future development time
 -- Pushed program and user interface to production for 100% of clients using Figma and React

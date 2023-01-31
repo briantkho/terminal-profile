@@ -61,7 +61,7 @@ export const Terminal = () => {
   };
 
   return (
-    <div className="rounded-2xl w-2/3 h-3/4 absolute z-50 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+    <div className="rounded-2xl w-2/3 h-[80%] absolute z-50 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
       <Header />
       <div className="bg-bgBlack w-full h-full scrolling text-white caret-white rounded-b-2xl">
         <div className="m-2">
