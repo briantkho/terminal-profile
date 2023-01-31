@@ -65,12 +65,14 @@ const contact = `${contactAnsi}`;
 
 const skills = `${skillsAnsi}`;
 
+const projects = `${projectsAnsi}`;
+
 export const outputs = {
   contact: contact,
   work: work,
   help: `Available commands: ${listCommands()}`,
   home: home,
-  projects: `<a href="https://github.com" target="_blank">projects</a>`,
+  projects: projects,
   skills: skills,
   unknown: 'zsh: command not found: ',
 };
