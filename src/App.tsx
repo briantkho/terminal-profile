@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
+import { Background } from './components/Background';
 import { Terminal } from './Terminal';
 
 function App() {
   return (
-    <div className="w-screen h-screen bg-gradient-to-br from-lightBlue to-darkBlue flex items-center justify-center font-mono caret-white">
+    <div className="w-screen h-screen font-mono caret-white">
       <Terminal />
+      <Background />
     </div>
   );
 }

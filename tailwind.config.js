@@ -5,11 +5,11 @@ module.exports = {
     extend: {
       keyframes: {
         idleMove: {
-          '0%': { transform: 'translateY(0)' },
-          '100%': { transform: 'translateY(.5rem)' },
+          '0%': { transform: 'scale(1)' },
+          '100%': { transform: 'scale(2)' },
         },
       },
-      animation: { idle: 'idleMove 3s ease-in-out infinite alternate' },
+      animation: { idle: 'idleMove 2s ease-in-out infinite alternate' },
     },
     colors: {
       transparent: 'transparent',
@@ -19,7 +19,8 @@ module.exports = {
       lightBlue: '#3D84B8',
       darkBlue: '#344FA1',
       gray: '#D9D9D9',
-      bgBlack: '#00000060',
+      bgBlack: '#00000070',
+      black: '#121212',
       white: 'FFFFFF',
     },
   },
