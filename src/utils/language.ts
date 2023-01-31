@@ -30,13 +30,13 @@ const projectsAnsi = `<pre>
 ██╔═══╝ ██╔══██╗██║   ██║██   ██║██╔══╝  ██║        ██║   ╚════██║
 ██║     ██║  ██║╚██████╔╝╚█████╔╝███████╗╚██████╗   ██║   ███████║
 ╚═╝     ╚═╝  ╚═╝ ╚═════╝  ╚════╝ ╚══════╝ ╚═════╝   ╚═╝   ╚══════╝</pre>`;
-const skillsAnsi = `<pre><
+const skillsAnsi = `<pre>
 ███████╗██╗  ██╗██╗██╗     ██╗     ███████╗
 ██╔════╝██║ ██╔╝██║██║     ██║     ██╔════╝
 ███████╗█████╔╝ ██║██║     ██║     ███████╗
 ╚════██║██╔═██╗ ██║██║     ██║     ╚════██║
 ███████║██║  ██╗██║███████╗███████╗███████║
-╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚══════╝/pre>`;
+╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚══════╝</pre>`;
 
 const home = `${logoAnsi}
 <p>Type “help” to see a list of commands
@@ -61,12 +61,16 @@ Web Developer (Intern): Nirvana Canada
 -- Skills: React, JavaScript, Angular, PHP, WordPress
 ____________</p>\n`;
 
+const contact = `${contactAnsi}`;
+
+const skills = `${skillsAnsi}`;
+
 export const outputs = {
-  contact: 'contact',
+  contact: contact,
   work: work,
   help: `Available commands: ${listCommands()}`,
   home: home,
   projects: `<a href="https://github.com" target="_blank">projects</a>`,
-  skills: 'skills',
+  skills: skills,
   unknown: 'zsh: command not found: ',
 };
