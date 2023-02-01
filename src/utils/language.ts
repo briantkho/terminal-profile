@@ -101,7 +101,7 @@ Creative: Figma | PhotoShop | Illustrator | LightRoom
 ${lineBreak}</p>`;
 
 const projects = `${projectsAnsi}
-<p>NextUp (In Progress ⏳) | <a href="https://github.com/briantkho/nextUp" target="_blank"><strong>GitHub</strong></a>
+<p>Capstone (In Progress ⏳) | <a href="https://github.com/briantkho/capstone" target="_blank"><strong>GitHub</strong></a>
 -- A full-stack habit tracker and self-improvement platform for individuals to achieve their goals reliably.
 -- <strong>Utilized</strong>: NextJS | React | TypeScript | Authentication | RESTful API | Supabase DB
 
