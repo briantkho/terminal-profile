@@ -64,8 +64,7 @@ const work = `${workAnsi}
 
 Front End Developer: Tetron Health (formerly LeftInDust)
 -- A medical record software company consisting of 10 individuals utilizing Agile Development
--- Developed, maintained, and updated software using Svelte, TypeScript and SQL to push the program to
-&nbsp;&nbsp;&nbsp;clinical trials for Vancouver General Hospital and the Canadian Rheumatology Association
+-- Developed, maintained, and updated software using Svelte, TypeScript and SQL to push the program to clinical trials for Vancouver General Hospital and the Canadian Rheumatology Association
 -- Successfully improved blocking time by 10% by refactoring and reducing main-thread code execution
 -- Converted 20,000 lines of legacy code from Vue to Svelte, resulting in a decrease in bundle size by 35%
 -- Utilized systematic design principles to improve code quality, reducing load times by 2 seconds
@@ -74,8 +73,7 @@ Front End Developer: Tetron Health (formerly LeftInDust)
 
 Front End Developer: Aniket Solutions
 -- Software solutions company based in Singapore that solves complex business problems
--- Collaborated with CEO to design and develop a client portal that allows companies to manage their employees
-&nbsp;&nbsp;&nbsp;and business subscriptions, improving business turnover by 10%
+-- Collaborated with CEO to design and develop a client portal that allows companies to manage their employees and business subscriptions, improving business turnover by 10%
 -- Used Rest API to project real-time updates, resulting in a 15% increase in client satisfaction
 -- Successfully developed a new codebase with React and TypeScript to improve future development time
 -- Pushed program and user interface to production for 100% of clients using Figma and React
@@ -101,22 +99,17 @@ Creative: Figma | PhotoShop | Illustrator | LightRoom
 ${lineBreak}</p>`;
 
 const projects = `${projectsAnsi}
-<p>Capstone (In Progress ⏳) | <a href="https://github.com/briantkho/capstone" target="_blank"><strong>GitHub</strong></a>
+<p>OneTwo3 (In Progress ⏳) | <a href="https://github.com/briantkho/OneTwo3" target="_blank"><strong>GitHub</strong></a>
 -- A full-stack habit tracker and self-improvement platform for individuals to achieve their goals reliably.
 -- <strong>Utilized</strong>: NextJS | React | TypeScript | Authentication | RESTful API | Supabase DB
 
 Flash ⚡ (nwHacks Hackathon 2023) | <a href="https://github.com/JoeDaBu/flash" target="_blank"><strong>GitHub</strong></a>
 -- Took the role of full-stack developer, UI designer, and team leader
--- An agile marketplace for UBC students to quickly seek school help and for UBC tutors to make money through tutoring. 
-&nbsp;&nbsp;&nbsp;This is made to connect UBC students to tutors better quickly and easily. We were inspired by the modern challenges and inconvenience of 
-&nbsp;&nbsp;&nbsp;traditional tutors and want to help provide a more advanced and personal approach to the student-tutor relationship. 
+-- An agile marketplace for UBC students to quickly seek school help and for UBC tutors to make money through tutoring. This is made to connect UBC students to tutors better quickly and easily. We were inspired by the modern challenges and inconvenience of traditional tutors and want to help provide a more advanced and personal approach to the student-tutor relationship. 
 -- <strong>Utilized</strong>: React | JavaScript | Figma | TailwindCSS | Express | RESTful API | SQLite | Prisma
 
 Hush 🔐 (Password Manager) | <a href="https://github.com/briantkho/hush" target="_blank"><strong>GitHub</strong></a>
--- Inspired by the increasing number of compromised passwords coming up online. With many companies looking to make profit from their password managers, 
-&nbsp;&nbsp;&nbsp;finding the right password manager that offers all the tools necessary to secure your account, without having to pay a monthly fee poses as a challenge. 
-&nbsp;&nbsp;&nbsp;I decided to take matters into my own hands and create a password manager that not only stores your passwords, but generates the best password for you 
-&nbsp;&nbsp;&nbsp;to ensure that you will never have to experience a compromised account again!
+-- Inspired by the increasing number of compromised passwords coming up online. With many companies looking to make profit from their password managers, finding the right password manager that offers all the tools necessary to secure your account, without having to pay a monthly fee poses as a challenge. I decided to take matters into my own hands and create a password manager that not only stores your passwords, but generates the best password for you to ensure that you will never have to experience a compromised account again!
 -- <strong>Utilized</strong>: Java | JUnit | Unit Testing
 
 BriefCase 📰 (COVID-19 Updates) | <a href="https://github.com/briantkho/Brief-Case" target="_blank"><strong>GitHub</strong></a>
