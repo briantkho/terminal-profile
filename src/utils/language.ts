@@ -51,9 +51,7 @@ ${lineBreak}
 
 This website is built by Brian Ho. 
 
-Brian is in his final year @ UBC pursuing a degree in Applied Biology & Computer Science. He find lots of joy and fulfillment from building things from the ground up, and seeing his ideas piece together. He believes that the pursuit of knowledge is a lifelong journey, and is committed to continuously learning and staying up-to-date with the latest advancements in the field.
-
-He prides myself in being a great team member. Bringing a combination of technical skills, adaptability, and a strong work ethic to every project he undertakes. He thrives in collaborative environments where ideas are freely exchanged, and actively seeks opportunities to contribute his expertise while learning from others.
+Brian is in his final year @ UBC pursuing a degree in Applied Biology & Computer Science. He find lots of joy and fulfillment from building things from the ground up, and seeing his ideas piece together.
 
 Currently, he is a Software Developer Intern at ResponsiveAds Inc.
 
