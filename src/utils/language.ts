@@ -53,7 +53,7 @@ This website is built by Brian Ho.
 
 Brian is in his final year @ UBC pursuing a degree in Applied Biology & Computer Science. He find lots of joy and fulfillment from building things from the ground up, and seeing his ideas piece together.
 
-Currently, he is a Software Developer Intern at ResponsiveAds Inc.
+Currently, he is an incoming SWE intern @ Copperleaf and the Lead @ GDSC UBC
 
 Here, you can find his qualifications, such as his work experience, projects, and skills.
 If you prefer a GUI please visit "https://brianho.tech" or click <a href="https://brianho.tech/"><strong>HERE</strong></a> 
